@@ -1,0 +1,62 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recycler_inventory_row_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="25dp"
+    android:paddingBottom="25dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="@drawable/light_blue_background_header"
+    android:layout_marginTop="1dp">
+    <TextView
+        android:id="@+id/recycler_inventory_row_tag_number"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:text="Tag Number"/>
+    <TextView
+        android:id="@+id/recycler_inventory_row_quantity"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:text="Quantity"/>
+    <TextView
+        android:id="@+id/recycler_inventory_row_description"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:text="Description"/>
+    <TextView
+        android:id="@+id/recycler_inventory_row_unit_value"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:text="Unit Value"/>
+    <TextView
+        android:id="@+id/recycler_inventory_row_total_value"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:text="Total Value"/>
+    <TextView
+        android:id="@+id/recycler_inventory_row_remarks"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Remarks"
+        android:layout_gravity="center_vertical"/>
+    <TextView
+        android:id="@+id/recycler_inventory_row_filename"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="File Name"
+        android:layout_gravity="center_vertical"/>
+</LinearLayout>

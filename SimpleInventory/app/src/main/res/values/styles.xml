@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--default-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <!--default-->
+        <item name="colorPrimary">@color/siPrimaryColor</item>
+        <item name="colorPrimaryDark">@color/siPrimaryDark</item>
+        <item name="colorAccent">@color/siAccentColor</item>
+        <item name="android:textColorPrimary">@color/siPrimaryText</item>
+        <item name="android:textColorSecondary">@color/siSecondaryText</item>
+    </style>
+
+    <style name="SimpleInventoryTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/siPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/siPrimaryColor</item>
+        <item name="colorAccent">@color/siAccentColor</item>
+        <!--<item name="colorPrimaryLight">@color/siPrimaryLight</item>-->
+        <item name="android:textColorPrimary">@color/siPrimaryText</item>
+        <item name="android:textColorSecondary">@color/siSecondaryText</item>
+        <!--<item name="colorDivider">@color/siDividerColor</item>-->
+    </style>
+
+</resources>
